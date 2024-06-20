@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import CabinList from "../_components/CabinList";
 import Spinner from "../_components/Spinner";
 import Filter from "../_components/Filter";
+import ReservationReminder from "../_components/ReservationReminder";
 
 // export const revalidate = 3600; // Not useful anymore, switched to dynamic
 // export const revalidate = 15; // from static moving closer to the dynamic, achieving middle ground
@@ -32,6 +33,7 @@ export default function Page({ searchParams }) {
       <Suspense fallback={<Spinner />} key={filter}>
         <CabinList filter={filter} />
         {/*Move into own component to use suspense */}
+        <ReservationReminder />
       </Suspense>
     </div>
   );
