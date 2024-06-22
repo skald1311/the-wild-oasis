@@ -9,5 +9,5 @@ import { auth } from "@/app/_lib/auth";
 export const middleware = auth;
 
 export const config = {
-  matcher: ["/account"], // routes that middleware should only run on
+  matcher: ["/account"], // routes that middleware should only run on (in this case, routes that needs to be protected)
 };
