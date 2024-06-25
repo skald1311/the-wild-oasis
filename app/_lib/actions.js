@@ -63,7 +63,7 @@ export async function updateBooking(formData) {
   // Building update data
   const updateData = {
     numGuests: Number(formData.get("numGuests")),
-    observations: formData.get("observation").slice(0, 1000),
+    observations: formData.get("observations").slice(0, 1000),
   };
 
   // Mutation

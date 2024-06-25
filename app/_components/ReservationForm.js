@@ -2,7 +2,7 @@
 
 import { differenceInDays } from "date-fns";
 import { useReservation } from "./ReservationContext";
-import { createBooking } from "../_lib/data-service";
+import { createBooking } from "../_lib/actions";
 import SubmitButton from "./SubmitButton";
 
 function ReservationForm({ cabin, user }) {
