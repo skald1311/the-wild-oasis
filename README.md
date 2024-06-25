@@ -15,7 +15,9 @@
   <p align="center">
     A hotel reservation system for The Wild Oasis 
     <br />
+    <br />
     <a href="https://the-wild-oasis-hosting.vercel.app"><strong>LIVE DEMO</strong></a>
+    <br />
     <br />
     <a href="https://github.com/skald1311/the-wild-oasis/issues">Report Bug</a>
     ·
