@@ -121,6 +121,7 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 
 Duong Hoang - [LinkedIn](https://www.linkedin.com/in/duongmhoang/)
+
 Project Link: [Github](https://github.com/skald1311/the-wild-oasis)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
