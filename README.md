@@ -15,6 +15,7 @@
   <p align="center">
     A hotel reservation system for The Wild Oasis 
     <br />
+    <a href="https://the-wild-oasis-hosting.vercel.app"><strong>LIVE DEMO</strong></a>
     <br />
     <a href="https://github.com/skald1311/the-wild-oasis/issues">Report Bug</a>
     ·
@@ -87,35 +88,14 @@
 <!-- GETTING STARTED -->
 ## Installation
 
-**For local use, please download the files in [here](https://github.com/skald1311/brain-disease-detector/releases/tag/v1.0.0)**
-
-**NOTE: Since the project uses AWS Lambda and API Gateway, local use cannot use the same, therefore you won't have a frontend**
-
-Once you've obtained the files, you can follow these next steps
-
-1. Make a new folder and put these files in
+1. Clone the repo
    ```sh
-   model.pt
-   yolo_inference.py
+   git clone https://github.com/skald1311/the-wild-oasis.git
    ```
 
-2. Optional: Create a virtual environment and activate it
+2. Cd into the repo and run
    ```sh
-   python -m venv .venv
-   . .venv/Scripts/activate
-   ```
-   Some systems might be different (python3 rather python; . .venv/bin/activate rather than . .venv/Scripts/activate)
-   
-3. Install ultralytics
-   ```sh
-   pip install ultralytics
-   ```
-
-4. Open yolo_inference.py and change the <image_file_path> to your MRI scan image path
-   ```sh
-   from ultralytics import YOLO
-   model = YOLO('model.pt')
-   model.predict('<image_file_path>', save=True)
+   npm run dev
    ```
 
 <!-- CONTRIBUTING -->
@@ -140,7 +120,6 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 
 Duong Hoang - [LinkedIn](https://www.linkedin.com/in/duongmhoang/)
-
 Project Link: [Github](https://github.com/skald1311/the-wild-oasis)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
