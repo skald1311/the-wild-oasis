@@ -5,5 +5,8 @@ def main():
     print("rebase test test test")
     print("alalalallala")
 
+def add(x, y):
+    return x + y
+
 if __name__ == '__main__':
     main()
